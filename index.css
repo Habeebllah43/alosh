@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 30px 50px; */
+    padding: 10px;
+}
+.net1{
+    width: 100px;
+}
+.btn1{
+    width: 70px;
+    height: 40px;
+    border: none;
+    background-color: #E50914;
+    color: white;
+    border-radius: 10px;
+}
+.div1{
+    background-image: url(Netflix.jpg);
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.518);
+    background-blend-mode: darken;
+    background-size: cover;  
+}
+.movies{
+    /* background-color: tomato; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 200px 0px;
+    color: white;
+}
+.moviesh1{
+    font-size: 45px;
+    font-family: 'Segoe UI';
+}
+.start{
+    font-size: 25px;
+    font-family: 'Segoe UI';
+}
+.ready{
+    font-size: 22px;
+    font-family: 'Gill Sans';
+}
+.input{
+    width: 250px;
+    height: 40px;
+    padding: 0px 10px;
+    background-color: rgba(0, 0, 0, 0.219);
+    border: none;
+    color: white;
+}
+.bott{
+    width: 100px;
+    height: 40px ;
+    color: white;
+    background-color: #E50914;
+    border: none;
+    border-radius: 10px;
+}
+.div2{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.906);
+    border-top: 1px solid rgba(128, 128, 128, 0.861);
+}
+.Enjoy{
+margin: 200px 100px;
+}
+.Div3{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+.shows{
+    font-size: 20px;
+    font-family: sans-serif;
+    gap: 50px;
+    text-align: center;
+    margin: 200px 100px;
+}
+.div4{
+    /* text-align: center; */
+    background-color: black;
+    color: white;
+}
